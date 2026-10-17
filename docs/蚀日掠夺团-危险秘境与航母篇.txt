@@ -1,0 +1,52 @@
+蚀日掠夺团：危险秘境与航母篇（提案）
+2026-09-04。仅新增设计和两张概念图；未改游戏脚本，未运行测试。姓名、奖励和剧情均为建议，未覆盖原有主线。Game Designer 与 Godot Gameplay Scripter 协作设计。
+
+一、核心
+旗舰“葬潮号”：由殖民航母改造的移动要塞，搭载重炮、机甲投送舱、拦截机和封存货舱。掠夺补给、绑架技术人员、毁坏反抗据点。庞大舰体依赖补给与分区供电，不能同时全功率开炮、启动护盾和跃迁；这是玩家以后可利用的限制，不是前期能正面对抗的目标。
+三人分别负责夺取、控制、变现，互相依赖，也互藏权限和账本。不要求一次任务击败三人。
+
+二、首领（设定图从左到右）
+岳沉戈／断舰：约45岁，极健硕，灰短发、断眉、方脸，黑铁重甲与暗红肩甲、动力拳套。前攻坚军官，沉默且冷酷，以毁灭抵抗建立威望。掌控主炮与突击队，重视舰体安全，厌恶私自挪用动力。台词：“停火？等他们不再有开火的能力。”
+闻缄／引魂师：约38岁，精瘦高挑，窄长脸、黑发夹白束，高领黑紫长衣、太阳穴神经接口、控制投影。所谓控魂是神经寄生网，必须依赖植入物或中继连接，不能隔空无限读心。控制效果有可观察延迟，断开正确中继能反制。台词：“你听见的是命令，还是你自己的念头？”
+裘盛／金腹：约50岁，肥胖，油亮后梳稀发，小眼、惯常假笑，酒红织锦长衣、装甲马甲、金戒与权限手杖。把财富与人都当作财产，沉迷享乐，利用囚禁和资源威胁成年女性，操纵交易、非法拘禁和赃物渠道。恶行通过证言、账目与囚区呈现，不制作性暴力或羞辱性失败画面。肥胖是外形特征，反派定性来自他的行为。私藏货梯和账本构成漏洞。台词：“账上没有的人，谁会来找？”
+裘盛不是罗茂的替代：罗茂利用同事信任制造私人情感债，裘盛是公开掌握囚区、市场和暴力资源的统治者。
+
+三、三个高危险、高收益区域
+1. 潮汐矿心：现有普通洞穴后可以再发现深层重力采掘井（尚未接入）。悬浮碎石周期倒流，玩家从安全锚点观察周期、固定通道、穿越重力窗口。外层可撤，内层取核心会改变返程方向，操作前提示。收益为独有重力稳定器蓝图，不是纯数值加倍；具体技能效果待设计。一次失误退回锚点，不无预警即死。
+2. 无声救难站：求救广播持续重复，实体生命迹象与广播人数对不上。比对时间戳、生命探测和电路状态识破闻缄的诱导信号。收益为神经干扰原型与真实航路。错误增加追踪，仍有封锁撤离机会。真实被困者有自主求生线索，不能只作为奖励道具。
+3. 葬潮号封存货舱：高阶机甲核心、劫掠名单、首领权限密钥被分别封存。可保守带走情报，也可冒险关闭炮阵取得核心；高阶收益会明确增加警戒或关闭一条撤离路线。首通核心、蓝图、证据均唯一，不通过被捕或重访重复领取。
+
+四、前期任务“天幕之下”
+凌霁外勤返程接到求救，抵达观测高地。先见停电城区、弹坑、吊走物资的货机，再见葬潮号遮蔽天空。沈砚：“不要锁定它。先带活着的人离开。”
+没有假装能赢的强制Boss战。玩家当前目标是救援、复制记录、选择撤离线路；三首领仅以截获语音或日志留名，角色设定图供作者使用，不等于首次登场全部揭面。
+若沿用ECHO区域，废墟应是新增边境港/远景事件，不能声称现有裂隙栈道已有城市地图。
+
+五、后期任务“巨鲸腹中”
+通过补给船窗口登舰，调查后选择夺取航路、救人或额外取得机甲核心，不把正面击败三首领作为潜入成功条件。
+解谜A：供电路由。显示节点容量，向货梯和密库送电，同时避开警报节点；先预览再确认。
+解谜B：控魂信号校验。交叉核对三组命令、设备状态和日志；真实证据可以验证，不让二首领随意改写所有UI令谜题无解。
+解谜C：巡检时序。观察固定巡逻周期，在屏障窗口转移，可暂停观察，颜色附带符号。不用高频连按。
+三种谜题用于不同区域，不必强行一次任务堆满。
+
+六、失败与逃脱
+推荐常规流程：隐蔽→怀疑→搜捕→封锁。一次错误只升一级且给具体纠错提示；封锁且被拦截才被捕。警戒上限不等于无缘由瞬间传送入牢，仍给明确撤离窗口。
+被捕进入“冷舱余烬”：隔离舱观察门锁自检→维护线路解谜→找回登记封存装备→选维护管道撤离，或救出同伴后绕货运舱撤离。逃脱需要真正的新观察与取舍，不是同一谜题再做三遍。
+原装备按原ID恢复，不能生成第二份；已有奖励记录保留。逃脱段无独占顶级装备，未被捕也能在潜入中救人，防止故意被抓成为最优收益。
+普通逃脱失败返回检查点。若加入BE，仅在明确不可逆警告后的最后冒险选择触发：封锁门合拢、通信中断、凌霁失联、任务失败；可读危险选择前存档。拒绝骚扰、拒绝亲密或反抗反派都不是BE原因。
+不让被捕成为必经观赏路线，成功潜入同样有完整剧情。
+
+七、后续代码边界
+建议流程phase、警戒alert_level、已领取奖励claimed_rewards，以及独立解谜完成记录与扣押装备ID。具体字段应在实施时对齐现有存档结构，不在设计阶段增设系统。
+过场使用静态图和轻微Tween；全景图不是2D碰撞地图，三人合照不是透明立绘或动画图集。需要后续单人拆分、表情、行走帧、地图和交互实现。
+当前资产：
+assets/story/eclipse-pirate-leaders-v1.png
+assets/story/eclipse-carrier-ruins-v1.png
+生成方式：内置imagegen；原始输出保留在Codex generated_images目录。设定图外形以生成稿为准，不额外声称已绘出眼镜等配件。
+
+八、完整生成提示词
+首领：
+Use case: stylized-concept. One cohesive CHARACTER LINEUP concept illustration for an original dark sci-fi anime RPG: THREE adult male space pirate commanders, full bodies head to boots visible, separated clearly across a wide 3:2 canvas, neutral smoky charcoal studio backdrop, polished 2D ink and cel shading, practical highly readable silhouettes. Left: supreme warlord around 45, extremely broad muscular build, short iron-gray buzzcut, squared weathered jaw, old eyebrow scar, stern quiet expression, massive charcoal heavy powered armor with dull crimson plates, an oversized armored gauntlet, heavy boots and short command cape, no oversized fantasy sword. Center: intelligence commander around 38, tall lean wiry build, long narrow calculating face, swept-back black hair with a white strand, high-collared dark fitted officer coat, violet neural-interface collar and fine temple implants, delicate gloved hand holding a small holographic control lattice, poised and cold, no supernatural ghost. Right: logistics and prison boss around 50, obese heavyset build, slick thinning combed-back hair, polished oily complexion, small watchful eyes, a smug practiced smile, fully clothed in a lavish burgundy brocade overcoat over an armored waistcoat, thick gold rings, a sealed access-key baton held at his side; expression and coercive authority convey villainy, not caricatured anatomy. Shared subtle broken-ring faction emblem, distinguish crimson/violet/old-gold accent colors. All three fully clothed. No captives, no women, no sexual imagery, no gore, no text, no labels, no watermark, no panels. This is a concept lineup, not a sprite sheet.
+
+航母远景：
+Use case: illustration-story. Cinematic landscape 16:9 establishing illustration for a dark sci-fi anime RPG. A COLOSSAL pirate space aircraft carrier, a mobile industrial fortress with stacked armored flight decks, heavy spinal artillery, rows of hangar doors and tiny escort craft, moves slowly through high dark cloud layers above a devastated frontier spaceport. Extreme sense of scale: carrier spans most of the upper sky, ruins and tiny transport shuttles far below. Asymmetric charcoal hull, muted crimson stripes, broken-ring faction insignia, glowing amber engine apertures; original spacecraft design, no existing franchise. Foreground on a rocky observation ridge: a small adult female protagonist seen from behind, black high ponytail, intact black and ivory practical armor and cyan wrist communicator, quietly surveying the distant catastrophe from cover. Character occupies less than one tenth image height, no confrontation. Midground ruined landing pads, collapsed crane, burned infrastructure, smoke columns and a few surviving emergency lamps; NO visible corpses, no graphic injuries, no sexual imagery. Visual story is overwhelming threat and cautious rescue mission, not triumphant battle. Polished 2D anime game background painting with defined ink edges, desaturated cold blue ash and distant amber fires, atmospheric depth. No text, subtitles, UI, watermark or collage.
+
